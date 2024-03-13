@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.weather-container {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+input {
+    padding: 15px;
+}
+
+.result-container {
+    border: 2px solid grey;
+    height: 400px;
+    width: 400px;
+    padding: 15px;
+}
